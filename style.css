@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Kalam:wght@300,400;700&display=swap');
+
+body{
+    background-image: url('2.jpg');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Kalam", cursive;
+    font-size: medium;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    font-size: x-small;
+}
+nav ul li{
+    padding: 0 12px;
+}
+select{
+    display: flex;
+    font-family: "Kalam", cursive;
+    background-color: black;
+    color: white;
+}
+.brand img{
+    width: 70px;
+    height: 65px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.container{
+   min-height: 50vh;
+   background-color: black;
+   color: white;
+   font-family: "Kalam", cursive;
+   display: flex;
+   margin: 23px auto;
+   width: 50%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('3.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    font-size:40px;
+    cursor:pointer;
+    padding: 2px;
+    margin-bottom: 1pc;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: "Dancing Round", cursive;
+}
+
+.songInfo img{
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+audio{
+    min-width: min-content;
+    text-align: center;
+    height: 50%;
+    color: white;
+}
+a{
+    text-size-adjust: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.front{
+    height: 800px;
+    width: 100%;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
